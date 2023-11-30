@@ -1,0 +1,580 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.links a{
+    margin-left: 75px;
+}
+header {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0; 
+}
+
+nav {
+    margin-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav img {
+    max-height: 50px;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.links a:hover {
+    border-bottom: solid #fff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    opacity: 0.7; 
+}
+
+header .img3 {
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title{
+    color:black;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.title h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 8px; 
+}
+
+.title p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.4px;
+}
+.dots{
+    position:absolute;
+    right: 10%;
+    top: 35%;
+}
+.eclipse{
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+}
+
+/* what we do */
+
+.whatwedo{
+    margin-top: 50px;
+    font-family: Montserrat; 
+    display: column;
+    justify-content: center;
+    align-items:center;
+}
+.bar{
+    display: flex;
+    background: #2C4058;
+    width: 100px;
+    height: 1px;
+}
+.titleidk{
+    margin-top: 30px;
+    color: #2C4058;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.flex_img{
+    color: #2C4058; 
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.img2{
+    width: 585px;
+    height: 470px; 
+    background: #55B7FF;
+}
+.building{
+    width: 30vw;
+    height: 45vh;
+    margin-left: 215px;
+    margin-top: 100px;
+}
+.text{
+    margin-left: 300px;
+    width: 470px;
+    height: 351px; 
+}
+button{
+    border: 1px solid #2C4058; 
+    width: 190px;
+    height: 50px; 
+    background-color:#FFF
+}
+.text span{
+    color: #000; 
+}
+.text h2{
+    font-size: 44px;
+    font-weight: 700; 
+}
+.text h3{
+    margin-bottom: -2rem;
+}
+
+main{
+    color: #2C4058;
+    font-family: Montserrat; 
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.text4{
+    width: 32rem;
+    height: 351px; 
+}
+.img4{
+    margin-top: -3rem;
+    margin-left: 35rem;
+    width: 585px;
+    height: 470px; 
+    background: #7E5AFF;
+}
+.img5{
+    margin-top: 4rem;
+    margin-left: -15rem;
+}
+.text4 h3{
+    margin-bottom: -3rem;
+    color: #2C4058;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+}
+.text4 h2{
+    font-size: 44px;
+    font-weight: 700; 
+}
+.text4 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text4 button{
+    border: 1px solid #2C4058; 
+    width: 190px;
+    height: 50px; 
+    background-color:#FFF
+}
+.text4 span{
+    color: #000; 
+}
+.main2{
+    color: #FFF;
+    font-family: Montserrat;    
+    display: column;
+    position: relative;
+    margin-top: 10rem;
+    width: 100vw;
+    height: 1035px;  
+    background: linear-gradient(237deg, #24CCFA 11.16%, #3C7FD4 89.18%);   
+}
+.text5{
+    margin-top: 10rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100vw;
+}
+.coll{
+    display: column;
+}
+.bar2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    width: 100px;
+    height: 1px; 
+    background-color:white;
+}
+.titlemew{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.news{
+    width: 370px;
+    height: 514px; 
+    background: #FFF;
+    margin: 1.5rem;
+}
+.mda3{
+    margin-top: 4rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.new1{
+    background-image:url('img/lauren-mancke-60633 1.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+.new2{
+    background-image:url('img/matthew-hamilton-202227 1.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+.new3{
+    background-size: 24rem 15rem;
+    background-image:url('img/joel-filipe-151697 1.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+.text8{
+    color: #2C4058;
+    font-family: Montserrat; 
+    margin-top: 16rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+}
+.text8 p{
+    color: #2C4058;
+    font-family: Montserrat; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.sp1{
+    margin-bottom: 3rem;
+    color: #55B7FF;
+    margin-left: 5rem;
+    
+    
+}
+.sp2{
+    margin-bottom: 3rem;
+    color: #2C4058;
+    margin-left: 1rem;
+}
+.ura{
+    margin-top: 2.7rem;
+}
+.sp3 img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -2rem;
+    border-radius:50%;
+}
+.dot33{
+    position: absolute;
+    bottom:-15%;
+    left:45%;
+}
+.right{
+    margin-right: 2rem;
+}
+.left{
+    margin-left: 2rem;
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/city 2 @2x 1.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+    z-index: 1;
+}
+.main3{
+    margin-top: 5rem;
+}
+.imgs333{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.bigone{
+    opacity: 0.8; 
+    width: 412.885px;
+    height: 385px; 
+    background-image:url('img/scott-webb-176434 1.png');
+    margin-left:31.5rem;
+}
+.imagini{
+    margin: 0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: -11rem;
+    background-repeat:no-repeat;
+
+}
+.img9{
+    background-image:url('img/photos-13323p6Bdc0uhr8Bq 1.png')
+}
+.img10{
+    background-image:url('img/echo-grid-156713 1.png')
+}
+.img11{
+    background-image:url('img/fuse-brussels-169216 1.png')
+}
+.img12{
+    background-image:url('img/tu-tram-pham-202263 2.png')
+}
+.imagini2{
+    margin: 20px auto;
+    min-width:400px;
+    min-height:400px;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+
+}
+.movebt1{
+    margin-left: 45%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+button:hover{
+    background-color:#2C4058;
+}
+
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 50rem; 
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.block2 {
+    
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 670px;
+    height: 450px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255)
+}
+.text13{
+    margin-top: 2rem;
+}
+.text10{
+    margin-top: 1rem;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 286px;
+    height: 196px; 
+}
+
+
+.underline span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    position: relative;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+.felx_box{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+.fixthis{
+    display: column;
+}
+.custom-input-container {
+    position: relative;
+    width: 310px;
+}
+
+.custom-input {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    width: 94%;
+    outline: none;
+    margin-bottom: 1rem; 
+    display: block;
+    border-bottom: 1px solid #2C4058; 
+}
+
+.custom-input::placeholder {
+    color: #4B5562;
+}
+
+hr{
+    background-color:#2C4058;
+    color:#2C4058;
+}
+
+.redbut{
+    width: 140px;
+    height: 50px; 
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.block2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/city@2x 1(2).png');
+    background-size: cover;
+    background-position: center;
+    opacity: 1s; 
+    z-index: 1; 
+}
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(251deg, #7E5AFF -2.19%, #55B7FF 103.21%);
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+footer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/scott-webb-176434 2.png'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1; 
+    z-index: 2; 
+
+    
+}
+
+.footer .span1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.center1{
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+.span2{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: -650px;
+}
+.move1{
+    margin-right: 25vw;
+}
+.svg:hover{
+    fill: red;
+}

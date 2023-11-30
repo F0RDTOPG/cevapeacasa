@@ -1,0 +1,9 @@
+<svg width="10" height="210" viewBox="0 0 10 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Dots">
+<circle id="Dot 4" cx="5" cy="105" r="4.5" transform="rotate(90 5 105)" stroke="white"/>
+<circle id="Dot 3" cx="5" cy="155" r="4.5" transform="rotate(90 5 155)" stroke="white"/>
+<circle id="Dot 2" cx="5" cy="205" r="4.5" transform="rotate(90 5 205)" stroke="white"/>
+<circle id="Dot 1" cx="5" cy="55" r="4.5" transform="rotate(90 5 55)" stroke="white"/>
+<circle id="Dot 2 (active slide)" cx="5" cy="5" r="5" transform="rotate(90 5 5)" fill="white"/>
+</g>
+</svg>
